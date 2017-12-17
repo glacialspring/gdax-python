@@ -3,11 +3,11 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    'bintrees==2.0.7',
-    'requests==2.13.0',
-    'six==1.10.0',
-    'websocket-client==0.40.0',
-    'pymongo==3.5.1'
+    'bintrees',
+    'requests',
+    'six',
+    'websocket-client',
+    'pymongo'
 ]
 
 tests_require = [
@@ -17,15 +17,15 @@ tests_require = [
 setup(
     name='gdax',
     version='1.0.6',
-    author='Daniel Paquin',
-    author_email='dpaq34@gmail.com',
+    author='Richard Foo',
+    author_email='foo.richard@gmail.com',
     license='MIT',
-    url='https://github.com/danpaquin/gdax-python',
+    url='https://github.com/glacialspring/gdax-python',
     packages=find_packages(),
     install_requires=install_requires,
     tests_require=tests_require,
     description='The unofficial Python client for the GDAX API',
-    download_url='https://github.com/danpaquin/gdax-Python/archive/master.zip',
+    download_url='https://github.com/glacialspring/gdax-Python/archive/master.zip',
     keywords=['gdax', 'gdax-api', 'orderbook', 'trade', 'bitcoin', 'ethereum', 'BTC', 'ETH', 'client', 'api', 'wrapper', 'exchange', 'crypto', 'currency', 'trading', 'trading-api', 'coinbase'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
@@ -41,5 +41,6 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
 )
